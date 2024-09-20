@@ -1,0 +1,46 @@
+@host = http://localhost:5000
+
+POST {{host}}/order/offline
+Content-Type: application/json
+
+{
+<<<<<<< HEAD
+    "customerId": "0146597B-CF2E-4A27-A6E4-56672FA7E97B",
+    "orderItems": [
+        {
+            "productId": "01550EA4-2289-45D4-9DF0-1AF4A7F3D66C",
+            "unitId": "01550EA4-2289-45D4-9DF0-1AF4A7F3D66C",
+            "boughtQuantity": 1
+=======
+    "customerId": "3C4D8346-739D-4B66-9F26-73BA64AE7605",
+    "orderItems": [
+        {
+<<<<<<< HEAD
+            "productId": "38a7f988-1df1-47c2-b07c-afc72c244961",
+            "unitId": "13abebdc-0821-4149-a593-6e3972021f9c",
+            "boughtQuantity": 1
+=======
+<<<<<<< HEAD
+            "productId": "E7815D30-E267-4CB2-BDF3-125BF28C1C04",
+            "unitId": "4978CF13-BFD0-452D-8DCC-20319CF708D0",
+            "boughtQuantity": 1
+=======
+            "productId": "04a8a12f-1045-45b3-a605-50f6d7dc912a",
+            "unitId": "0d48baae-de2d-48f1-89f8-56d9719750b9",
+            "boughtQuantity": 
+>>>>>>> d5139a0d8b04459d078a8b8d0c988e488436f70a
+>>>>>>> main
+>>>>>>> main
+        }
+    
+    ],
+    "paymentType": "COD",
+    "voucherCode": {
+        "value": "DAT"
+    },
+<<<<<<< HEAD
+    "employeeId": "817D4E92-A966-4D6C-B9C5-2C8984B2F9ED"
+=======
+    "employeeId": "4DCF98E5-87DF-4CFD-95A6-A1BE603FAF21"
+>>>>>>> main
+}

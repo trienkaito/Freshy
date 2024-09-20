@@ -1,0 +1,11 @@
+@host = http://localhost:5000
+
+POST {{host}}/job/position
+Content-Type: application/json
+
+{
+    "name": "Chủ cửa hàng (Store Owner)",
+    "description": "Chủ cửa hàng chịu trách nhiệm quản lý toàn bộ hoạt động của cửa hàng, bao gồm lập kế hoạch kinh doanh, đặt mục tiêu và phát triển chiến lược để đạt được các mục tiêu doanh số.",
+    "salary":  0
+    
+}

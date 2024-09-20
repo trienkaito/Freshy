@@ -1,0 +1,167 @@
+/* styles.css */
+img.img-thumbnail {
+  width: 300px;
+}
+.input-container {
+  margin-bottom: 10px;
+}
+
+.input-container label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+.loader {
+    width: 48px;
+    height: 48px;
+    border: 5px solid #FFF;
+    border-bottom-color: #FF3D00;
+    border-radius: 50%;
+    display: inline-block;
+    box-sizing: border-box;
+    animation: rotation 1s linear infinite;
+    }
+
+    @keyframes rotation {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+    } 
+.input-container input {
+  width: 100%; /* Ensure input fields take up full width */
+  padding: 5px; /* Add padding for better appearance */
+  box-sizing: border-box; /* Ensure padding and border are included in the width */
+}
+
+.custom-container {
+  margin-top: 10px;
+  margin-bottom: 5px;
+}
+.a-product{
+  color: blue !important;
+}
+.custom-container > div {
+  margin-bottom: 5px;
+}
+span.remove-button {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+
+span.add-button{
+  cursor: pointer;
+}
+
+.ModalProduct .modal-dialog {
+  width: 45%; /* Đặt kích thước modal thành 50% */
+  margin: auto; /* Canh chỉnh vị trí của modal-dialog để hiển thị chính giữa màn hình */
+}
+
+body {
+    background-color: aliceblue;
+    }
+.card-custom {
+        transition: transform 0.3s ease;
+    
+    }
+   
+.card-custom:hover {
+        transform: scale(1.05); /* Phóng to 5% khi hover */
+      }
+      .custom-combobox {
+        margin-right: 15px; 
+        position: relative;
+        width: 25%;
+      }
+      
+      .select-box {
+        width: 100%;
+        padding: 8px;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+      }
+      
+      .select-box:focus {
+        outline: none; /* loại bỏ đường viền khi tập trung */
+      }
+      
+      /* Tạo biểu tượng mũi tên cho combobox */
+      .select-box:after {
+        content: "\25BC"; /* biểu tượng mũi tên Unicode */
+        position: absolute;
+        top: 50%;
+        right: 10px;
+        transform: translateY(-50%);
+        pointer-events: none; /* loại bỏ sự kiện click cho biểu tượng */
+      }
+      .custom-select-modal{
+        width: 100%;
+        padding: 8px;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+      }
+      .custom-select-modal:focus{
+        outline: none;
+      }
+      .custom-select-modal::after{
+        content: "\25BC"; /* biểu tượng mũi tên Unicode */
+        position: absolute;
+        top: 50%;
+        right: 10px;
+        transform: translateY(-50%);
+        pointer-events: none;
+      }
+
+      
+.filter{
+    display: flex;
+}
+.filter-2{
+    display: flex;
+    .custom-btn{
+        background-color: #ff8000; /* Màu cam */
+        border-color: #ff8000; /* Màu viền nút */
+        color: #fff; /* Màu chữ trắng */
+    }
+    .custom-btn:hover {
+        background-color: #ffa726; /* Màu cam sáng khi di chuột qua */
+        border-color: #ffa726; /* Màu viền nút khi di chuột qua */
+        color: #fff; /* Màu chữ trắng */
+      }
+    .select-filter-2{
+        margin-top: 8px;
+        display: flex;
+        margin-left: 198px;
+        .thanhphan{
+            margin-left: 10px;
+        }
+    }
+    
+      
+}
+.bt-search{
+    display: flex;
+    input{
+        width: 500px;
+    }
+    .custom-btn {
+        margin-left:15px ;
+        border-radius: 0.5 px;
+        background-color: #28a745; /* Thiết lập màu nền xanh tươi */
+        border-color: #28a745; /* Thiết lập màu viền giống màu nền */
+        color: #fff; /* Thiết lập màu chữ trắng */
+        width: 95px;
+      }
+      
+      .custom-btn:hover {
+        background-color: #218838; /* Thiết lập màu nền xanh tươi khi di chuột qua */
+        border-color: #1e7e34; /* Thiết lập màu viền khi di chuột qua */
+      }
+      
+   
+}
+      

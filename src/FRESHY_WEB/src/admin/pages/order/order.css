@@ -1,0 +1,122 @@
+
+/* @media (min-width: 576px){
+  .modal-dialog {
+    max-width: 40% !important;
+  }
+  } */
+
+.fa-trash-can {
+    cursor: pointer;
+}
+.suggestions {
+    position: absolute;
+    list-style-type: none;
+    background-color: white;
+    border: 1px solid #ccc;
+    border-top: none;
+    padding: 0;
+    margin: 0;
+    width: 32%;
+    max-height: 200px; /* Điều chỉnh độ cao tối đa của danh sách gợi ý */
+    overflow-y: auto; /* Cho phép cuộn khi danh sách quá dài */
+    z-index: 1000; /* Đảm bảo danh sách gợi ý hiển thị trên các phần tử khác */
+}
+
+.suggestions li {
+    padding: 12px 16px;
+    line-height: 24px; /* Đặt line-height để tăng kích thước của phần tử */
+    cursor: pointer;
+}
+
+.suggestions li:hover {
+    background-color: #f1f1f1;
+} /* Định dạng các phần tử trong ô này */
+td span {
+    padding: 0 10px; /* Tạo khoảng cách giữa các phần tử "-" và "+" */
+    cursor: pointer; /* Thay đổi hình dạng con trỏ */
+}
+
+/* Khi di chuột vào các phần tử span */
+td span:hover {
+    color: blue; /* Đổi màu văn bản khi di chuột vào */
+}
+
+.table-responsive table {
+    width: 100% !important;
+}
+
+.col-md-6.combo-pay {
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    /* width: 48% !important; */
+    /* justify-content: center !important; */
+}
+
+.list-product {
+    max-height: 61%;
+    overflow: scroll;
+}
+.search-form {
+    position: relative;
+}
+Table {
+    height: 125%; /* Chiều rộng cố định của bảng */
+}
+.search-icon {
+    position: absolute;
+    top: 50%;
+    left: 97%; /* Điều chỉnh khoảng cách từ biên trái của phần tử cha */
+    transform: translateY(-50%);
+}
+.pay-ing {
+    background-color: #faf8f852; /* Màu nền */
+    padding: 20px; /* Khoảng cách giữa các phần tử */
+    border-radius: 5px; /* Bo góc */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Hiệu ứng bóng đổ */
+}
+.combo-cacular {
+    margin-top: 25px;
+}
+.pay-ing h6 {
+    color: #333; /* Màu chữ */
+    font-size: 16px; /* Kích thước chữ */
+    margin-bottom: 24px; /* Khoảng cách dưới */
+}
+
+.pay-ing span {
+    color: #007bff; /* Màu chữ */
+    font-size: 14px; /* Kích thước chữ */
+    display: block; /* Hiển thị trên một dòng riêng biệt */
+    margin-bottom: 5px; /* Khoảng cách dưới */
+}
+
+.pay-button {
+    padding: 3px;
+    margin-top: 14px;
+    display: flex;
+    /* align-items: center; */
+    justify-content: center;
+}
+input.pay-button:hover {
+    color: white;
+    background-color: #436528;
+}
+.main-order {
+    background-color: #d9d9d9;
+    max-height: 80%;
+    height: 65%;
+    text-align: center;
+}
+
+.combo-paying-button {
+    display: flex;
+    justify-content: center;
+}
+.paying-button {
+    display: flex;
+    justify-content: center;
+}
+
+.icon-search-client {
+}

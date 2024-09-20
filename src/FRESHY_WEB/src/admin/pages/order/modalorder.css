@@ -1,0 +1,133 @@
+/* CSS cho label */
+label {
+    display: inline-block;
+    margin-bottom: 5px;
+}
+h3.text-muted {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+p.mb-1 {
+    font-size: 12px;
+}
+
+h4.float-end {
+    font-size: 15px;
+}
+/* CSS cho input */
+input[type="number"] {
+    margin-left: 5px;
+
+    width: 250px; /* Độ rộng của input */
+    padding: 8px; /* Khoảng cách nội dung và viền */
+    border: 1px solid #ccc; /* Viền của input */
+    border-radius: 4px; /* Bo tròn các góc */
+    box-sizing: border-box; /* Kích thước của box tính cả border và padding */
+    font-size: 16px; /* Cỡ chữ */
+}
+
+/* Định dạng input khi được focus */
+input[type="number"]:focus {
+    outline: none; /* Loại bỏ đường viền xung quanh */
+    border-color: #007bff; /* Màu viền khi focus */
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.5); /* Hiệu ứng bóng đổ khi focus */
+}
+body {
+    margin-top: 20px;
+    background-color: #eee;
+}
+
+.card {
+    box-shadow: 0 20px 27px 0 rgb(0 0 0 / 5%);
+}
+.card {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    background-color: #fff;
+    background-clip: border-box;
+    border: 0 solid rgba(0, 0, 0, 0.125);
+    border-radius: 1rem;
+}
+/* .ModalOrder {
+      max-width: 40% !important;
+    } */
+.custom-modal .modal-dialog {
+    width: 35%; /* Đặt kích thước modal thành 50% */
+}
+h5.mb-1 {
+    font-size: 15px;
+}
+
+.text-muted h5 {
+    font-size: 12px;
+    margin-bottom: 0px;
+}
+.text-muted p {
+    font-size: 12px;
+    font-weight: bold;
+    margin-bottom: 0px;
+}
+thead tr {
+    font-size: 13px;
+}
+tbody tr {
+    font-size: 12px;
+}
+.d-flex.info {
+    margin-bottom: 0px;
+}
+.info {
+    margin-bottom: 0px;
+}
+.total-pay {
+    display: flex;
+    justify-content: space-between;
+    height: 30px;
+}
+.total-pay h5 {
+    font-size: 13px;
+    font-weight: bold;
+}
+.total-pay p {
+    font-size: 13px;
+    font-weight: bold;
+}
+
+img.float-start {
+    width: 100px;
+    height: auto;
+    margin-right: 15px;
+}
+.choice-pay {
+    display: flex;
+    justify-content: space-around;
+    align-items: baseline;
+}
+
+.choice-hover {
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+.choice-hover img {
+    width: 50px;
+    height: 50px;
+}
+
+.choice-hover.selected img {
+    padding: 10px;
+    border: 1px solid gray; /* Thay đổi border khi được chọn */
+    border-radius: 3px;
+}
+
+/* 
+    @media (min-width: 576px){
+      .ModalOrder {
+        max-width: 40% !important;
+      }
+      }
+       */

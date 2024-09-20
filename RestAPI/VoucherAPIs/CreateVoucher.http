@@ -1,0 +1,15 @@
+@host = http://localhost:5000
+
+POST {{host}}/special/voucher
+Content-Type: application/json
+
+{
+    "code": {
+        "value": "DAT" 
+    },
+    "startedOn": "04/2/2024",
+    "endedOn": "10/5/2024",
+    "discountValue": 15,
+    "description": "This voucher is dedicated for our loyal customer.",
+    "employeeId": "80246fd6-0aff-47e6-92af-424e3439d170"
+}

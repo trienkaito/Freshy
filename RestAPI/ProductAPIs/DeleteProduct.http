@@ -1,0 +1,9 @@
+@host = http://localhost:5000
+
+DELETE {{host}}/catalogue/product/E8F53966-46F4-42A0-BF0C-808C19C1D463
+Content-Type: application/json
+
+{
+    "id": "E8F53966-46F4-42A0-BF0C-808C19C1D463"
+
+}

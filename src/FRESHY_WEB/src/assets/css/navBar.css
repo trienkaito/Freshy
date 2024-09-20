@@ -1,0 +1,38 @@
+.me-auto{
+    margin: auto!important
+}
+.navbar-nav .nav-link.active{
+    font-weight: 600 ;
+    border-bottom: solid black 2px ;
+}
+.order-link{
+    border-radius: 2px;
+    padding: 2px 4px;
+    
+}
+.order-link p{
+    margin-bottom: 0;
+}
+
+a{
+    text-decoration: none !important;
+    color: #595959 !important;
+}
+a:hover{
+    color: #51a26f !important;
+}
+a.active{
+    border-bottom: 2px #51a26f solid;
+    color: #51a26f !important;
+}
+a.order-link.d-flex {
+    padding-top: 18px;
+}
+.dropdown-menu.show {
+    width: 95%;
+    text-align: center;
+    margin-left: 5px;
+}
+.ser{
+    margin-right: 0 !important;
+}

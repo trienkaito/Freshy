@@ -1,0 +1,9 @@
+@host = http://localhost:5000
+
+POST {{host}}/profile/customer/productlike
+Content-Type: application/json
+
+{
+    "productId": "08D72FD5-EE3A-417A-93F2-3094CA5CD5B3",
+    "customerId": "2D751067-0F84-4AC6-B337-259DCA245073"
+}

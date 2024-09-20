@@ -1,0 +1,41 @@
+@host = http://localhost:5000
+
+POST {{host}}/profile/employee
+Content-Type: application/json
+
+{
+
+    "accountId": "f547cea5-1c50-444e-b2f8-13e40e6a0ec7",
+    "email": "ddd@gmail.com",
+    "fullname": "FRESHY'",
+    "avatar": "https://res.cloudinary.com/dpvftjlm9/image/upload/v1710317694/fa601ey1qxjmih9s78ng.jpg",
+    "phoneNumber": "0905090090",
+
+    "sSN": "201800001" ,
+    "dOB": "01/01/2024",
+    "livingAddress": "01 Nam Kỳ Khởi Nghĩa, Ngũ Hành Sơn, Đà Nẵng.",
+    "hometown": "Đà Nẵng",
+    "cvLink": "somerandomcvlink2.com",
+<<<<<<< HEAD
+    "jobPositionId": "21D39C39-D9AE-4C1A-BFCB-3D5839C85231",
+=======
+<<<<<<< HEAD
+    "jobPositionId": "483D573E-BD39-449D-8CC6-03525474B129",
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+    "jobPositionId": "269C257B-0DE3-4973-ACC0-59942A9DA001",
+=======
+<<<<<<< HEAD
+    "jobPositionId": "03E77C48-EB98-4DFB-BDD5-5264CAF50670",
+=======
+    "jobPositionId": "99227de0-8bd7-4d08-b444-ee01c3af63a0",
+>>>>>>> 7bf3cac3afd05ef2fbb6d13065d34c19554551e4
+>>>>>>> main
+=======
+    "jobPositionId": "99227de0-8bd7-4d08-b444-ee01c3af63a0",
+>>>>>>> HanNi
+>>>>>>> main
+>>>>>>> main
+    "managerId": null
+}

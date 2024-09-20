@@ -1,0 +1,17 @@
+@host = http://localhost:5000
+@productId = 38a7f988-1df1-47c2-b07c-afc72c244961
+@unitId = 13abebdc-0821-4149-a593-6e3972021f9c
+
+PUT {{host}}/catalogue/product/{{productId}}/unit/{{unitId}}
+Content-Type: application/json
+
+{
+    "id": "7cdfd179-9acb-4606-a309-0822d01968d7",
+    "importPrice": 2,
+    "quantity": 2,
+    "sellPrice": 2,
+    "unitFeatureImage": "https://res.cloudinary.com/dpvftjlm9/image/upload/v1712637583/fsmoui4wwzsrvuzfof1x.jpg",
+    "unitType": "BÚN BÒ huế",
+    "unitValue": 3,
+    "unitid": "a77b7379-6d05-4fa5-8255-33ae57bbf69e"
+}

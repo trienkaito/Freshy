@@ -1,0 +1,52 @@
+{
+    "Routes": [
+        //AUTHENTICATION API SERVICE
+            //LOGIN
+            {
+            "UpstreamPathTemplate": "/api/user/login",
+            "UpstreamHttpMethod": [ "Get", "Post", "Put", "Delete" ],
+            "DownstreamScheme": "http",
+            "DownstreamHostAndPorts": [
+                {
+                    "Host": "localhost",
+                    "Port": 7080
+                }
+            ],
+            "DownstreamPathTemplate": "/user/login"
+        },
+            // REGISTER
+            {
+            "UpstreamPathTemplate": "/api/user/register",
+            "UpstreamHttpMethod": [ "Get", "Post", "Put", "Delete" ],
+            "DownstreamScheme": "http",
+            "DownstreamHostAndPorts": [
+                {
+                    "Host": "localhost",
+                    "Port": 7080
+                }
+            ],
+            "DownstreamPathTemplate": "/user/register"
+        },
+            //GOOGLE LOGIN
+            {
+            "UpstreamPathTemplate": "/api/user/google-login",
+            "UpstreamHttpMethod": [ "Post" ],
+            "DownstreamScheme": "http",
+            "DownstreamHostAndPorts": [
+                {
+                    "Host": "localhost",
+                    "Port": 7080
+                }
+            ],
+            "DownstreamPathTemplate": "/user/google-login"
+        }
+
+        //ORDER, PRODUCT, USER,... API SERVICE
+            //PRODUCT SERVICE
+                //
+    ],
+    "GlobalConfiguration": {
+        "BaseUrl": "http://localhost:"
+    }
+}
+ 

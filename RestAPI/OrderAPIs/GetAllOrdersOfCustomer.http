@@ -1,0 +1,5 @@
+@host = http://localhost:5000
+@customerId = 16ddbafa-414e-48a1-910d-d581e56efebf
+
+GET {{host}}/order/customer/{{customerId}}/orders
+Content-Type: application/json

@@ -1,0 +1,5 @@
+@host = https://localhost:5001
+@id = 718335d7-8372-4866-ae34-782be4328c48
+
+GET {{host}}/profile/customer/0146597B-CF2E-4A27-A6E4-56672FA7E97B/cart
+Content-Type: application/json

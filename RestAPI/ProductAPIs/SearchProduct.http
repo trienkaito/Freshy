@@ -1,0 +1,22 @@
+@host = http://localhost:5000
+
+<<<<<<< HEAD
+<<<<<<< HEAD
+
+<<<<<<< HEAD
+GET {{host}}/catalogue/SearchProduct?ProductName=&SupplierName=FPT&TypeName=VEGATABLES&pageNumber=1&pageSize=10
+Content-Type: application/json
+
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> main
+
+GET {{host}}/catalogue/SearchProduct?ProductName=&SupplierName=FPT&TypeName=VEGATABLES&pageNumber=1&pageSize=10
+Content-Type: application/json
+>>>>>>> main
+=======
+GET {{host}}/catalogue/SearchProduct?ProductName=&SupplierName=&TypeName=MEAT&pageNumber=1&pageSize=10
+Content-Type: application/json
+>>>>>>> main

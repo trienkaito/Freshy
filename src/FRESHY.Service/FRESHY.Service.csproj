@@ -1,0 +1,30 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Mapster" Version="7.4.0" />
+    <PackageReference Include="Mapster.DependencyInjection" Version="1.0.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\FRESHY.Authentication\FRESHY.Authentication.Application\FRESHY.Authentication.Application.csproj" />
+    <ProjectReference Include="..\FRESHY.Authentication\FRESHY.Authentication.Contract\FRESHY.Authentication.Contract.csproj" />
+    <ProjectReference Include="..\FRESHY.Authentication\FRESHY.Authentication.Domain\FRESHY.Authentication.Domain.csproj" />
+    <ProjectReference Include="..\FRESHY.Authentication\FRESHY.Authentication.Infrastructure\FRESHY.Authentication.Infrastructure.csproj" />
+    <ProjectReference Include="..\FRESHY.Common\FRESHY.Common.Application\FRESHY.Common.Application.csproj" />
+    <ProjectReference Include="..\FRESHY.Common\FRESHY.Common.Contract\FRESHY.Common.Contract.csproj" />
+    <ProjectReference Include="..\FRESHY.Common\FRESHY.Common.Domain\FRESHY.Common.Domain.csproj" />
+    <ProjectReference Include="..\FRESHY.Common\FRESHY.Common.Infrastructure\FRESHY.Common.Infrastructure.csproj" />
+    <ProjectReference Include="..\FRESHY.Main\FRESHY.Main.Application\FRESHY.Main.Application.csproj" />
+    <ProjectReference Include="..\FRESHY.Main\FRESHY.Main.Contract\FRESHY.Main.Contract.csproj" />
+    <ProjectReference Include="..\FRESHY.Main\FRESHY.Main.Domain\FRESHY.Main.Domain.csproj" />
+    <ProjectReference Include="..\FRESHY.Main\FRESHY.Main.Infrastructure\FRESHY.Main.Infrastructure.csproj" />
+    <ProjectReference Include="..\FRESHY.SharedKernel\FRESHY.SharedKernel\FRESHY.SharedKernel.csproj" />
+  </ItemGroup>
+
+</Project>

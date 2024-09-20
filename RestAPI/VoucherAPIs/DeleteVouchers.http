@@ -1,0 +1,11 @@
+@host = http://localhost:5000
+
+POST {{host}}/special/vouchers/delete
+Content-Type: application/json
+
+{
+    "employeeId" : "80246fd6-0aff-47e6-92af-424e3439d170",
+    "voucherIds" : [
+        ""
+    ]
+}

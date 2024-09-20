@@ -1,0 +1,77 @@
+body{
+    background-color: #D9D9D9;
+}
+.welcome p{
+    margin-bottom: 0;
+}
+.header{
+    width: 100wh;
+    background-color: white;
+}
+.logo img{
+    width: 70px;
+}
+.loginHeader input{
+    width: 2cm;
+}
+
+.container{
+    padding: 5px 0;
+}
+.sideBar{
+    background-color: white;
+}
+.item1{
+    margin-right: 40px;
+    text-decoration: underline;
+    ;
+}
+.information{
+    padding: 10px 0;
+}
+.icon-head{
+    padding: 7px;
+}
+.form-control{
+    border-radius: 25px;
+}
+.d1{
+    text-align: center;
+    color: white;
+    background-color: #51a26f;
+    padding: 5px 0;
+}
+.icon-search{
+    padding-top: 6px;
+}
+.s-head{
+ float: right;
+}
+.order-link{
+    text-align: center;
+}
+.phone{
+    align-items: center;
+}
+a.order-link.nav-link {
+    padding-top: 16px;
+}
+.icon-phone{
+    padding-top: 14px;
+    padding-right: 5px;
+}
+input.me-2.form-control {
+    border-radius: 0px;
+}
+
+.sign{
+    color: black !important;
+}
+
+.d1 a#collapsible-nav-dropdown:hover {
+    color: black!important;
+}
+
+.d1 a#collapsible-nav-dropdown{
+    color: white !important;
+}

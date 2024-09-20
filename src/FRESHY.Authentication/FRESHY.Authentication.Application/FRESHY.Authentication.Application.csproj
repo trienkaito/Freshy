@@ -1,0 +1,27 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="NewFolder\**" />
+    <EmbeddedResource Remove="NewFolder\**" />
+    <None Remove="NewFolder\**" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\FRESHY.Common\FRESHY.Common.Application\FRESHY.Common.Application.csproj" />
+    <ProjectReference Include="..\..\FRESHY.SharedKernel\FRESHY.SharedKernel\FRESHY.SharedKernel.csproj" />
+    <ProjectReference Include="..\FRESHY.Authentication.Contract\FRESHY.Authentication.Contract.csproj" />
+    <ProjectReference Include="..\FRESHY.Authentication.Domain\FRESHY.Authentication.Domain.csproj" />
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="Google.Apis.Auth" Version="1.67.0" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Abtractions\UserAbtracttions\Queries\" />
+  </ItemGroup>
+
+</Project>

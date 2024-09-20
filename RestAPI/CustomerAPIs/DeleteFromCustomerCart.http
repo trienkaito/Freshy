@@ -1,0 +1,6 @@
+@host = http://localhost:5000
+@id = 2D751067-0F84-4AC6-B337-259DCA245073
+@cartId = 9c900778-52bf-41a2-b690-7fed82d62fa0
+
+DELETE {{host}}/profile/customer/{{id}}/item/{{cartId}}
+Content-Type: application/json

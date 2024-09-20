@@ -1,0 +1,21 @@
+@host = http://localhost:5000
+
+POST {{host}}/order/online
+Content-Type: application/json
+
+{
+    "customerId": "0146597B-CF2E-4A27-A6E4-56672FA7E97B",
+    "orderAddress": "Quangtri",
+    "orderItems": [
+        {
+            "productId": "7AF29F0F-73B7-420B-8DDD-30735A2B4164",
+            "unitId": "20E79DC0-7352-4AE2-A247-2C3AEB5B3903",
+            "boughtQuantity": 2
+        }
+    ],
+    "paymentType": "COD",
+    "shippingId" : "F0E3AF11-2929-4FCB-857D-C71685227D75",
+    "voucherCode": {
+        "value": "DAT"
+    }
+}

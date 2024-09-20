@@ -1,0 +1,18 @@
+@host = http://localhost:5000
+
+
+PUT {{host}}/catalogue/product/db6cb3a4-0b79-4c63-9625-58749057a829
+Content-Type: application/json
+
+{
+    "name": "a1111dsad",
+    "featureImage": "https://res.cloudinary.com/dpvftjlm9/image/upload/v1693990308/samples/breakfast.jpg",
+    "description": "Test Product Description",
+    "typeId": "0590a4c3-861b-4bcd-a87f-d6453da6e0dc",
+    "supplierId": "a00ce640-cdb5-4fb1-b4cb-fae8a1c85856",
+    "dom": "03/03/2024",
+    "expiryDate": "03/20/2024",
+
+    "isShowToCustomer": true,
+    "employeeId": "44102A6A-36CE-4D66-834F-8907A7277C5A"
+}

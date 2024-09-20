@@ -1,0 +1,14 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\FRESHY.SharedKernel\FRESHY.SharedKernel\FRESHY.SharedKernel.csproj" />
+    <ProjectReference Include="..\FRESHY.Main.Domain\FRESHY.Main.Domain.csproj" />
+  </ItemGroup>
+
+</Project>

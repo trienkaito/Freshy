@@ -1,0 +1,98 @@
+@host = http://localhost:5000
+
+POST {{host}}/catalogue/product
+Content-Type: application/json
+
+<<<<<<< HEAD
+    "name": "Test Product 2",
+    "featureImage": "https://res.cloudinary.com/dpvftjlm9/image/upload/v1693990308/samples/breakfast.jpg",
+    "description": "Test Product 2 Description",
+    "typeId": "DE1C643C-D1C2-4745-96B0-900B8A8C4252",
+    "supplierId": "52f394a3-1f14-4c92-a2f4-23395a50f2f5",
+    "dom": "03/14/2024",
+    "expiryDate": "03/25/2024",
+    "isShowToCustomer": true,
+    "employeeId": "9016E224-52D3-42B3-834C-A278C4F25DA4",
+    "units": [
+        {
+=======
+{
+
+    "name": "Test Product 2",
+    "featureImage": "https://res.cloudinary.com/dpvftjlm9/image/upload/v1693990308/samples/breakfast.jpg",
+    "description": "Test Product 2 Description",
+    "typeId": "6C237811-55A3-4A9A-BEF6-5B347A4E17B7",
+    "supplierId": "1FEDAB93-8F50-439A-9EC9-28361FAB7CF4",
+    "dom": "03/14/2024",
+    "expiryDate": "03/25/2024",
+    "isShowToCustomer": true,
+<<<<<<< HEAD
+    "employeeId": "D129C26D-E984-42B1-8CFD-F40EEFBCF6ED",
+=======
+    "employeeId": "4DCF98E5-87DF-4CFD-95A6-A1BE603FAF21",
+=======
+    "name": "Test Product 5",
+    "featureImage": "https://res.cloudinary.com/dpvftjlm9/image/upload/v1693990308/samples/breakfast.jpg",
+    "description": "Test Product Description",
+    "typeId": "1b3f6be8-b0f3-4b24-8077-f72bafe24296",
+>>>>>>> main
+    "supplierId": "de645fc7-35ca-4398-bb34-e658dbc4e78d",
+    "dom": "03/14/2024",
+    "expiryDate": "03/25/2024",
+    "isShowToCustomer": true,
+    "employeeId": "e5e28c8b-2090-42aa-b2a3-d7eb710c39a5",
+<<<<<<< HEAD
+>>>>>>> 7bf3cac3afd05ef2fbb6d13065d34c19554551e4
+>>>>>>> main
+=======
+>>>>>>> HanNi
+>>>>>>> main
+    "units": [
+        {
+<<<<<<< HEAD
+=======
+
+>>>>>>> main
+>>>>>>> main
+            "unitType": "ml",
+            "unitValue": 1000,
+            "quantity": 20,
+            "importPrice": 50000,
+            "sellPrice": 51000,
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+            "unitType": "kg",
+            "unitValue": 5,
+            "quantity": 100,
+            "importPrice": 22450,
+            "sellPrice": 50000,
+<<<<<<< HEAD
+=======
+>>>>>>> main
+>>>>>>> main
+            "UnitFeatureImage": "URL to unit feature image 1"
+        },
+        {
+            "unitType": "kg",
+            "unitValue": 3,
+            "quantity": 100,
+            "importPrice": 22450,
+            "sellPrice": 50000,
+<<<<<<< HEAD
+            "unitFeatureImage": "https://res.cloudinary.com/dpvftjlm9/image/upload/v1693990308/samples/breakfast.jpg"
+        },
+=======
+            "UnitFeatureImage": "URL to unit feature image 2"
+        },
+        {
+            "unitType": "ml",
+            "unitValue": 330,
+            "quantity": 30,
+            "importPrice": 23000,
+            "sellPrice": 24000,
+            "unitFeatureImage": "https://res.cloudinary.com/dpvftjlm9/image/upload/v1693990308/samples/breakfast.jpg"
+        }
+>>>>>>> main
+    ]
+}

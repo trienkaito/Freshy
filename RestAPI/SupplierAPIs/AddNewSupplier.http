@@ -1,0 +1,21 @@
+@host = http://localhost:5000
+
+POST {{host}}/partner/supplier
+Content-Type: application/json
+
+{
+<<<<<<< HEAD
+    "name": "7",
+    "featureImage": "https://res.cloudinary.com/dpvftjlm9/image/upload/v1693990279/samples/cloudinary-icon.png",
+    "description": "Công ty chúng tôi đem tới cho các bạn những nông sản chất lượng nhất cao nguyên Đà Lạt.",
+    "isValid": true,
+    "employeeId": "4DCF98E5-87DF-4CFD-95A6-A1BE603FAF21"
+
+=======
+    "name": "8",
+    "featureImage": "https://res.cloudinary.com/dpvftjlm9/image/upload/v1693990279/samples/cloudinary-icon.png",
+    "description": "Công ty chúng tôi đem tới cho các bạn những nông sản chất lượng nhất cao nguyên Đà Lạt.",
+    "isValid": true,
+    "employeeId": "e5e28c8b-2090-42aa-b2a3-d7eb710c39a5"
+>>>>>>> main
+}

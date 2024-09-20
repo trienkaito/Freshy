@@ -1,0 +1,12 @@
+@host = http://localhost:5000
+
+POST {{host}}/partner/shipping
+Content-Type: application/json
+
+{
+    "name": "HỎA TỐC",
+    "featureImage": "https://res.cloudinary.com/dpvftjlm9/image/upload/v1693990308/samples/breakfast.jpg",
+    "description": " SHIPPING PARTNER DESCRIPTION",
+    "shippingPrice": 15000,
+    "address": "Đà Nẵng"
+}

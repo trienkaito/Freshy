@@ -1,0 +1,5 @@
+@host = http://localhost:5000
+@id = 2D751067-0F84-4AC6-B337-259DCA245073
+
+GET {{host}}/profile/customer/{{id}}/productlike
+Content-Type: application/json

@@ -1,0 +1,56 @@
+
+.buy-again button {
+    background-color: #7FAD39;
+    border: 0px;
+    padding: 7px;
+    color: white;
+}
+.row{
+    display: flex;
+}
+.ccc{
+    margin-left: auto;
+    margin-right: auto;
+}
+.title {
+    font-size: 0.85rem;
+    margin-top: 7vh;
+}
+
+.title h5 {
+    font-size: 1rem;
+    font-weight: bold;
+}
+
+.money {
+    display: flex;
+    justify-content: space-between;
+}
+
+.money h5 {
+
+    margin-left: auto;
+    margin-top: 5px;
+    font-size: 1rem;
+    font-weight: bold;
+}
+
+.head-title {
+    font-size: 1.1rem;
+}
+
+.head-title h4 {
+    font-size: 1.6rem;
+    font-weight: bold;
+}
+
+.title-content img {
+    width: 8.5rem;
+    height: 6rem;
+    object-fit: cover;
+}
+
+.card-body{
+    width: 100%;
+}
+.card{width: 100%;}

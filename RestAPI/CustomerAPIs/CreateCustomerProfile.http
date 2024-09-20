@@ -1,0 +1,14 @@
+@host = http://localhost:5000
+
+POST {{host}}/profile/customer
+Content-Type: application/json
+
+{
+
+    "accountId": "41f0043e-5240-4607-9fe4-a891f58dbd23",
+    "email": null,
+    "phone": "0918902002",
+    "name": "Vinh",
+    "avatar": "https://res.cloudinary.com/dpvftjlm9/image/upload/v1710317404/bh6shxzutbugwiyliwc1.jpg"
+
+}

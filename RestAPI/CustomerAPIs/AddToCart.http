@@ -1,0 +1,11 @@
+@host = http://localhost:5000
+
+POST {{host}}/profile/customer/cart
+Content-Type: application/json
+
+{
+    "cartId": "3ee889ac-04a3-471e-9521-e614c2635273",
+    "productId": "38a7f988-1df1-47c2-b07c-afc72c244961",
+    "productUnitId": "13abebdc-0821-4149-a593-6e3972021f9c",
+    "boughtQuantity": 20
+}
